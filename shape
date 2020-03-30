@@ -1,0 +1,5 @@
+import tensorflow as tf
+
+rank1_tensor = tf.Variable([['test1' , 'test2'] ,['test3', 'test4']] ,tf.string )
+
+rank1_tensor.shape
